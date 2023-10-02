@@ -13,4 +13,10 @@ public class NameController {
 		
 		return "Best of the year by ...";
 	}
+	
+	@GetMapping("/best")
+	public String best() {
+		
+		return "best";
+	}
 }
